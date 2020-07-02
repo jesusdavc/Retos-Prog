@@ -8,4 +8,4 @@ const sumar = (n1, n2, n3) =>{
     return parseFloat(resultado.toFixed(2))
 }
 
-console.log(sumar(number1, number2, number3))
+alert(sumar(number1, number2, number3))

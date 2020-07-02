@@ -4,6 +4,6 @@ let pizzaConsumidaCompleta = pizzaConsumida.toFixed(0)
 
 const imprimirPizzas = () =>{
     let pizzaFinal = pizzaIncial - pizzaConsumidaCompleta
-    return console.log(`Quedan ${pizzaFinal} comieron ${pizzaConsumidaCompleta}`)
+    return alert(`Quedan ${pizzaFinal} comieron ${pizzaConsumidaCompleta}`)
 }
 imprimirPizzas()

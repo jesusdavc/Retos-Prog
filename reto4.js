@@ -7,4 +7,4 @@ const sumar = (n, s) =>{
     return parseFloat(resultado.toFixed(2))
 }
 
-console.log(sumar(number1, number2))
+alert(sumar(number1, number2))

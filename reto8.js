@@ -6,10 +6,10 @@ const dividirCuenta = () => {
     let totalNeto = totalaPagar + iva + propina
     let dineroPorPersona = totalNeto/personas
 
-    console.log(`Su cuenta es ${totalNeto} $`)
-    console.log(`Correspomdiente de iva ${iva}$`)
-    console.log(`Propina ${propina}$`)
-    console.log(`Y cada persona paga ${dineroPorPersona}$`)
+    alert(`Su cuenta es ${totalNeto} $`)
+    alert(`Correspomdiente de iva ${iva}$`)
+    alert(`Propina ${propina}$`)
+    alert(`Y cada persona paga ${dineroPorPersona}$`)
 }
 
     dividirCuenta()
